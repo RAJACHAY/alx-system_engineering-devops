@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script displays TCP and UDP listening ports,  shows listening sockets, shows the PID and name of the program to which each socket belongs
+
+netstat -l

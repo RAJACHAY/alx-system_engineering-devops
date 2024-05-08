@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Script that pings an IP address passed as an argument
+
+#verify ip 
+arg_ip="$1"
+
+
+else
+	ping -c 5 "${IP}"
+fi
